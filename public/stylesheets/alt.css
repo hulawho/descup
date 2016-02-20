@@ -1,4 +1,4 @@
-@import url(/stylesheets/includes.css);
+@import url(/public/stylesheets/includes.css);
 
 html {
 	position: relative;
@@ -47,6 +47,10 @@ body {
     	border: none;
 }
 
+.navbar-brand {
+	padding: 20px 15px;
+}
+
 .navbar-nav {
     margin-top: 0px;
     margin-bottom:0px;
@@ -86,8 +90,6 @@ body {
 
 .navbar-authed .nav>li>a {
 	color:#FFF;
-	padding-top: 9px;
-    	padding-bottom: 9px;
 }
 
 .navbar-authed-alt .nav>li>a {
