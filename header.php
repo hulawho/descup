@@ -13,4 +13,19 @@
 	</head>
 
 <body>
-
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-authed">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-6 nav-col">
+					<div class="navbar-header">
+						<a class="navbar-brand"><span class="logo-text-alt">kurehun</span></a>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-6 nav-col">
+					<ul class="nav navbar-nav pull-right">
+						<li><a href="#">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
