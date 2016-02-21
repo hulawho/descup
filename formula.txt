@@ -1,0 +1,76 @@
+//calculate w/d/l, gf/ga/gd
+
+league1 = []
+league2 = []
+league3 = []
+
+teams = select id, name, league from teams
+
+foreach team in teams
+	wins = 0, draws = 0, losses = 0, gf = 0, ga = 0, gd = 0, points, tiebreaker = 0, data = []
+
+	//first batch
+	results1 = select score_a, score_b from fixtures where team_a = team['id']
+	
+	foreach result1 in results1
+		
+		//calculate wdl
+		margin = result1[’score_a’] - result1[’score_b’]
+		if(margin > 0)
+			wins += 1
+		if(margin === 0)
+			draws +=1
+		if(margin < 0)
+			losses +=1
+
+		//calculate gf/ga
+		gf += result1[’score_a’]
+		ga += result1[’score_b’]
+
+	//second batch
+	results2 = select score_a, score_b from fixtures where team_b = team['id']
+
+	foreach result2 in results2
+		
+		//calculate wdl
+		margin = result2[’score_b’] - result2[’score_a’]
+		if(margin > 0)
+			wins += 1
+		if(margin === 0)
+			draws +=1
+		if(margin < 0)
+			losses +=1
+	
+		//calculate gf/ga
+		gf += result2[’score_b’]
+		ga += result2[’score_a’]
+		
+		//calculate gd
+		gd = gf-ga
+		
+		//calculate points
+		points = (wins*3) + (draws)
+		
+				
+	//collate data
+	data[team] = team['name']
+	data[wins] = wins
+	data[draws] = draws
+	data[losses] = losses
+	data[gf] = gf
+	data[ga] = ga
+	data[gd] = gd
+	data[points] = points
+	
+	//push into relevant array
+	if team['league'] === 1
+		array_push(league1, data)
+	else if team['league'] === 2
+		array_push(league2, data)
+	else
+		array_push(league3, data)
+
+//sort the leagues by teams with most points, then highest gd, then most goals scored 
+usort(league1, 'cmp')
+usort(league2, 'cmp')
+usort(league3, 'cmp')
