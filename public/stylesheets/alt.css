@@ -380,3 +380,9 @@ body {
 .feed {
 	padding-bottom: 30px;
 }
+
+/* Touch Ups */
+
+.navbar-collapse {
+	padding-left: 0;
+}
