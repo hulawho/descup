@@ -16,19 +16,24 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top navbar-authed">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 col-md-6 nav-col">
+				<div class="col-xs-12 col-md-12 nav-col">
 					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navList">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> 
+						</button>
 						<a class="navbar-brand"><span class="logo-text-alt">DES Cup</span></a>
 					</div>
-				</div>
-				<div class="col-xs-6 col-md-6 nav-col">
-					<ul class="nav navbar-nav pull-right">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Games</a></li>
-						<li><a href="#">Leagues</a></li>
-						<li><a href="#">Teams</a></li>
-						<li><a href="#">Fixtures and Results</a></li>
-					</ul>
+					<div class="collapse navbar-collapse" id="navList">
+						<ul class="nav navbar-nav pull-right">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Games</a></li>
+							<li><a href="#">Leagues</a></li>
+							<li><a href="#">Teams</a></li>
+							<li><a href="#">Fixtures and Results</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
