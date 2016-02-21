@@ -131,6 +131,7 @@
 					</div>
 					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h4>Super League</h4>
 							<h5>Group B</h5>
 							<table class="table">
 								<thead>
@@ -161,6 +162,7 @@
 					</div>
 					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h4>Super League</h4>
 							<h5>Group C</h5>
 							<table class="table">
 								<thead>
@@ -191,6 +193,7 @@
 					</div>
 					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h4>Super League</h4>
 							<h5>Group D</h5>
 							<table class="table">
 								<thead>
