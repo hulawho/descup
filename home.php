@@ -42,6 +42,7 @@
 					</div>
 					<div class='col-xs-12 col-md-12 padding-top'>
 						<div class='panel'>
+							<h4>Player Rankings</h4>
 							<table class="table">
 								<thead>
 									<tr>
@@ -69,11 +70,9 @@
 				<div class='row'>
 					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h4>Premier League</h4>
 							<table class="table">
 								<thead>
-									<tr>
-										<th>Premier League</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
-									</tr>
 									<tr>
 										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
 									</tr> 
@@ -101,11 +100,10 @@
 					</div>
 					<div class='col-xs-12 col-md-12 padding-top'>
 						<div class='panel'>
+							<h4>Super League</h4>
+							<h5>Group A</h5>
 							<table class="table">
 								<thead>
-									<tr>
-										<th>Super League</th><th>Group A</th><th></th><th></th><th></th><th></th><th></th><th></th>
-									</tr>
 									<tr>
 										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
 									</tr> 
@@ -131,13 +129,11 @@
 							</table>
 						</div>
 					</div>
-					<div class='col-xs-12 col-md-12 padding-top'>
+					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h5>Group B</h5>
 							<table class="table">
 								<thead>
-									<tr>
-										<th>Super League</th><th>Group B</th><th></th><th></th><th></th><th></th><th></th><th></th>
-									</tr>
 									<tr>
 										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
 									</tr> 
@@ -163,13 +159,11 @@
 							</table>
 						</div>
 					</div>
-					<div class='col-xs-12 col-md-12 padding-top'>
+					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h5>Group C</h5>
 							<table class="table">
 								<thead>
-									<tr>
-										<th>Super League</th><th>Group C</th><th></th><th></th><th></th><th></th><th></th><th></th>
-									</tr>
 									<tr>
 										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
 									</tr> 
@@ -195,13 +189,11 @@
 							</table>
 						</div>
 					</div>
-					<div class='col-xs-12 col-md-12 padding-top'>
+					<div class='col-xs-12 col-md-12'>
 						<div class='panel'>
+							<h5>Group D</h5>
 							<table class="table">
 								<thead>
-									<tr>
-										<th>Super League</th><th>Group D</th><th></th><th></th><th></th><th></th><th></th><th></th>
-									</tr>
 									<tr>
 										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
 									</tr> 
@@ -229,11 +221,9 @@
 					</div>	
 					<div class='col-xs-12 col-md-12 padding-top'>
 						<div class='panel'>
+							<h4>Women's Fiesta</h4>
 							<table class="table">
 								<thead>
-									<tr>
-										<th>Women's Fiesta</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
-									</tr>
 									<tr>
 										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
 									</tr> 
