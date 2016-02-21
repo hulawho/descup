@@ -40,33 +40,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		
-			<div class='col-xs-12 col-md-6 post post-next'>
-				<div class='row'>
-					<div class='col-xs-12 col-md-12'>
-						<div class='panel'>
-							<table class="table">
-								<thead>
-									<tr>
-										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
-									</tr> 
-								</thead>
-								<tbody>
-									<tr>
-										<th scope="row">1</th><td>Arsenal</td><td>23</td><td>17</td><td>5</td><td>1</td><td>23</td><td>56</td> 
-									</tr> 
-									<tr>
-										<th scope="row">2</th><td>Leicester City</td><td>23</td><td>15</td><td>7</td><td>1</td><td>23</td><td>52</td> 
-									</tr>
-									<tr>
-										<th scope="row">3</th><td>Manchester City</td><td>23</td><td>13</td><td>7</td><td>3</td><td>23</td><td>46</td> 
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
 					<div class='col-xs-12 col-md-12 padding-top'>
 						<div class='panel'>
 							<table class="table">
@@ -85,6 +58,203 @@
 									<tr>
 										<th scope="row">3</th><td>Francis Coquelin</td><td>Arsenal</td><td>13</td><td>7</td>
 									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class='col-xs-12 col-md-6 post post-next'>
+				<div class='row'>
+					<div class='col-xs-12 col-md-12'>
+						<div class='panel'>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Premier League</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+									</tr>
+									<tr>
+										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
+									</tr> 
+								</thead>
+								<tbody>
+									<?php 
+									
+									$league1_counter = 0;
+									foreach($league1 as $team) { 
+										$league1_counter += 1;
+									?>
+									
+									<tr>
+										<th scope="row"><?=$league1_counter?></th><td><?=$team['name']?></td><td><?=$team['gp']?></td><td><?=$team['wins']?></td><td><?=$team['draws']?></td><td><?=$team['losses']?></td><td><?=$team['gd']?></td><td><?=$team['points']?></td> 
+									</tr> 
+									
+									<?php
+									
+									}
+									
+									?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class='col-xs-12 col-md-12 padding-top'>
+						<div class='panel'>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Super League</th><th>Group A</th><th></th><th></th><th></th><th></th><th></th><th></th>
+									</tr>
+									<tr>
+										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
+									</tr> 
+								</thead>
+								<tbody>
+									<?php 
+									
+									$league2A_counter = 0;
+									foreach($league2['A'] as $team) { 
+										$league2A_counter += 1;
+									?>
+									
+									<tr>
+										<th scope="row"><?=$league2A_counter?></th><td><?=$team['name']?></td><td><?=$team['gp']?></td><td><?=$team['wins']?></td><td><?=$team['draws']?></td><td><?=$team['losses']?></td><td><?=$team['gd']?></td><td><?=$team['points']?></td> 
+									</tr> 
+									
+									<?php
+									
+									}
+									
+									?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class='col-xs-12 col-md-12 padding-top'>
+						<div class='panel'>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Super League</th><th>Group B</th><th></th><th></th><th></th><th></th><th></th><th></th>
+									</tr>
+									<tr>
+										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
+									</tr> 
+								</thead>
+								<tbody>
+									<?php 
+									
+									$league2B_counter = 0;
+									foreach($league2['B'] as $team) { 
+										$league2B_counter += 1;
+									?>
+									
+									<tr>
+										<th scope="row"><?=$league2B_counter?></th><td><?=$team['name']?></td><td><?=$team['gp']?></td><td><?=$team['wins']?></td><td><?=$team['draws']?></td><td><?=$team['losses']?></td><td><?=$team['gd']?></td><td><?=$team['points']?></td> 
+									</tr> 
+									
+									<?php
+									
+									}
+									
+									?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class='col-xs-12 col-md-12 padding-top'>
+						<div class='panel'>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Super League</th><th>Group C</th><th></th><th></th><th></th><th></th><th></th><th></th>
+									</tr>
+									<tr>
+										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
+									</tr> 
+								</thead>
+								<tbody>
+									<?php 
+									
+									$league2C_counter = 0;
+									foreach($league2['C'] as $team) { 
+										$league2C_counter += 1;
+									?>
+									
+									<tr>
+										<th scope="row"><?=$league2C_counter?></th><td><?=$team['name']?></td><td><?=$team['gp']?></td><td><?=$team['wins']?></td><td><?=$team['draws']?></td><td><?=$team['losses']?></td><td><?=$team['gd']?></td><td><?=$team['points']?></td> 
+									</tr> 
+									
+									<?php
+									
+									}
+									
+									?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class='col-xs-12 col-md-12 padding-top'>
+						<div class='panel'>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Super League</th><th>Group D</th><th></th><th></th><th></th><th></th><th></th><th></th>
+									</tr>
+									<tr>
+										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
+									</tr> 
+								</thead>
+								<tbody>
+									<?php 
+									
+									$league2D_counter = 0;
+									foreach($league2['D'] as $team) { 
+										$league2D_counter += 1;
+									?>
+									
+									<tr>
+										<th scope="row"><?=$league2D_counter?></th><td><?=$team['name']?></td><td><?=$team['gp']?></td><td><?=$team['wins']?></td><td><?=$team['draws']?></td><td><?=$team['losses']?></td><td><?=$team['gd']?></td><td><?=$team['points']?></td> 
+									</tr> 
+									
+									<?php
+									
+									}
+									
+									?>
+								</tbody>
+							</table>
+						</div>
+					</div>	
+					<div class='col-xs-12 col-md-12 padding-top'>
+						<div class='panel'>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Women's Fiesta</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+									</tr>
+									<tr>
+										<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>PTS</th>
+									</tr> 
+								</thead>
+								<tbody>
+									<?php 
+									
+									$league3_counter = 0;
+									foreach($league3 as $team) { 
+										$league3_counter += 1;
+									?>
+									
+									<tr>
+										<th scope="row"><?=$league3_counter?></th><td><?=$team['name']?></td><td><?=$team['gp']?></td><td><?=$team['wins']?></td><td><?=$team['draws']?></td><td><?=$team['losses']?></td><td><?=$team['gd']?></td><td><?=$team['points']?></td> 
+									</tr> 
+									
+									<?php
+									
+									}
+									
+									?>
 								</tbody>
 							</table>
 						</div>
