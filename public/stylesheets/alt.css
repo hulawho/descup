@@ -287,9 +287,21 @@ body {
 	padding-right: 0px;
 }
 
+.padding-top {
+	padding-top: 30px;
+}
+
 @media (min-width: 768px) {
 	.post-next {
 		padding-left: 30px;
+	}
+	
+	.panel-first {
+		padding-right: 0;
+	}
+	
+	.panel-last {
+		padding-left: 0;
 	}
 }
 
@@ -312,7 +324,7 @@ body {
 }
 
 .panel-default>.panel-body>p {
-	margin: 0;
+	margin: 15px 0px;
 }
 
 .panel-title {
@@ -322,10 +334,6 @@ body {
 .panel-footer {
 	border-top: 1px solid rgba(0,0,0,0.10);
 	background-color: #FFF;
-}
-
-.panel-container {
-	padding: 0;
 }
 
 .panel-nb {
