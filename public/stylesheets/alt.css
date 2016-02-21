@@ -386,3 +386,7 @@ body {
 .navbar-collapse {
 	padding-left: 0;
 }
+
+.panel>h4, .panel>h5 {
+	padding-left: 15px;
+}
