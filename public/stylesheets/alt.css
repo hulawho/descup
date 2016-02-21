@@ -7,6 +7,9 @@ html {
 
 body {
 	font-family: 'Lato', sans-serif;
+	padding-top: 50px;
+	background-image: none;
+	background-color: #fafafa;
 }
 
 #landing {
@@ -16,12 +19,6 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-#hello {
-	padding-top: 101px;
-	background-image: none;
-	background-color: #fafafa;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -69,6 +66,18 @@ body {
 	color: #fff;
 	background-color: #E83535;
 	background-image: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #A01616;
+}
+
+.navbar-inverse .navbar-collapse {
+	border: none;
 }
 
 .navbar-brand {
@@ -274,8 +283,14 @@ body {
 .post {
 	padding-top: 30px;
 	padding-bottom: 0; 
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+	.post-next {
+		padding-left: 30px;
+	}
 }
 
 .panel {
@@ -288,7 +303,16 @@ body {
 .panel-default>.panel-heading {
 	background-image: none;
 	background-color: #FFF;
-	padding: 20px;
+	border-bottom: 1px solid #edeeee;
+}
+
+.panel-default>.panel-heading>h3 {
+	margin: 0;
+	font-size: 18px;
+}
+
+.panel-default>.panel-body>p {
+	margin: 0;
 }
 
 .panel-title {
@@ -298,6 +322,14 @@ body {
 .panel-footer {
 	border-top: 1px solid rgba(0,0,0,0.10);
 	background-color: #FFF;
+}
+
+.panel-container {
+	padding: 0;
+}
+
+.panel-nb {
+	border: none;
 }
 
 /* Search Bar */
