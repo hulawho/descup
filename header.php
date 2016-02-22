@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>DES Cup | Home</title>
+		<title>DESCUP'16 | Home</title>
 		<link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/public/bootstrap/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="/public/stylesheets/alt.css">
@@ -23,7 +23,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span> 
 						</button>
-						<a class="navbar-brand"><span class="logo-text-alt">DES Cup</span></a>
+						<a class="navbar-brand"><span class="logo-text-alt">DESCUP'16</span></a>
 					</div>
 					<div class="collapse navbar-collapse" id="navList">
 						<ul class="nav navbar-nav pull-right">
